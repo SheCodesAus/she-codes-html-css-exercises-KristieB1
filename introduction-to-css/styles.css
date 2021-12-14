@@ -1,7 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@700&display=swap');
 
+/* *{
+    border: 1px solid purple;
+} */
+
+/* borders have width style and colour */
 html {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Corinthia', cursive;
     background-color: #fff;
 }
 
@@ -12,30 +18,45 @@ body {
 header {
     text-align: center;
     background-color: #6b469a;
-    padding: 10px;
+    padding: 20px;
+    margin: 20px;
+    font-family: 'Arial';
+    font-size: 20px;
+
+
 }
 
 h1 {
     font-size: 2.5rem;
     line-height: 2.5rem;;
-    color: #fff;
+    color: thistle ;
 }
 
 h2 {
     font-size: 3rem;
     line-height: 3rem;
-    color: #fff;
+    color: plum;
 }
 
 nav {
     margin: 10px;
     padding: 10px;
     background-color: #999999;
+    width: 200px;
+}
+
+#image{
+    width: 70em;
+    height: 40em;
+    border: 3px dashed rgb(139, 0, 139);
+    /* padding: 50px;
+    margin: 5px; */
 }
 
 a {
     color: #fff;
     text-decoration: none;
+    margin: 5px;
     padding: 5px;
 }
 
@@ -64,3 +85,12 @@ footer {
 }
 
 /* Your code here */
+
+nav a {
+    display: block;
+}
+
+/* this is the anchors within your nav */
+
+/* width: 200px | 50% | 20em | auto;
+height: 200px | 50% | 20em | auto; */
