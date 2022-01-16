@@ -13,7 +13,11 @@ body {
     font-size: 1rem;
     font-weight: bold;
     height: calc(100% - 14px);
+    display: flex;
+
 }
+
+/* justify - can move to centre, left, etc. */
 
 div {
     padding: 5px;
@@ -21,3 +25,25 @@ div {
 }
 
 /*** Your code here ***/
+.demo-div{
+    flex-grow: 1;
+}
+
+#div-6{
+    flex-grow: 2;
+    order:1;
+}
+
+/* flex-grow, how much space it takes up. eg" 1X, 2X */
+#div-1{
+    flex-basis: 20%;
+    order: 2;
+
+}
+
+#div-2{
+    flex-basis: 100px;
+    order: 3;
+}
+
+/* flex-basis, set specific size as form changes, eg: 20% of page always. use % for this to make it responsive */
